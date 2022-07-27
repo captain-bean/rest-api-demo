@@ -6,7 +6,7 @@ Building and running:
   - You may also need maven installed, but the binary included should be sufficient
   - In the top level directory, run the command "mvn spring-boot:build-image"
   - Verify that there is a "singlestone-demo" image listed in the output of "docker images"
-  - Run the command "docker run -p 8080:8080 -t singlestone-demo:latest"
+  - Run the command "docker run -p 8080:8080 -t singlestone-demo:0.0.1-SNAPSHOT"
     - If port 8080 is in use, change the lefthand port assignment to a free port.
   - The ReST API is now accessible at localhost:8080/contacts
   
