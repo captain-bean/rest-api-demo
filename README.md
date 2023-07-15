@@ -1,4 +1,4 @@
-# singlestone-demo
+# rest api demo
 
 Building and running:
 
